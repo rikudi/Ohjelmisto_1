@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b1b517-30fb-41bd-8240-3ff8a99ddac2" name="Changes" comment="added modules 2,3 - exercises 4-6">
-      <change afterPath="$PROJECT_DIR$/moduuli-2/teht1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduuli-3/teht1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduuli-3/teht2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduuli-3/teht3.py" afterDir="false" />
+    <list default="true" id="67b1b517-30fb-41bd-8240-3ff8a99ddac2" name="Changes" comment="module 3 exercises">
+      <change afterPath="$PROJECT_DIR$/moduuli-3/teht4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduuli-2/teht2.py" beforeDir="false" afterPath="$PROJECT_DIR$/moduuli-2/teht2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduuli-2/teht3.py" beforeDir="false" afterPath="$PROJECT_DIR$/moduuli-2/teht3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduuli-2/teht4.py" beforeDir="false" afterPath="$PROJECT_DIR$/moduuli-2/teht4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduuli-2/teht5.py" beforeDir="false" afterPath="$PROJECT_DIR$/moduuli-2/teht5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduuli-2/teht6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduuli-3/teht3.py" beforeDir="false" afterPath="$PROJECT_DIR$/moduuli-3/teht3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +23,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rikudi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0b08440d-d343-4170-a3fa-e1e19e419c84" />
+        <option name="url" value="https://github.com/rikudi/Ohjelmisto_1.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -83,7 +90,7 @@
       <updated>1705480728682</updated>
       <workItem from="1705480732336" duration="5301000" />
       <workItem from="1705552683240" duration="919000" />
-      <workItem from="1705562352629" duration="8725000" />
+      <workItem from="1705562352629" duration="11138000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit, teht 1-4">
       <option name="closed" value="true" />
@@ -99,7 +106,14 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1705563641922</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="module 3 exercises">
+      <option name="closed" value="true" />
+      <created>1705577511120</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1705577511120</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,15 +133,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit, teht 1-4" />
     <MESSAGE value="added modules 2,3 - exercises 4-6" />
-    <option name="LAST_COMMIT_MESSAGE" value="added modules 2,3 - exercises 4-6" />
+    <MESSAGE value="module 3 exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="module 3 exercises" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht1.coverage" NAME="teht1 Coverage Results" MODIFIED="1705565234423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-3" />
     <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht5.coverage" NAME="teht5 Coverage Results" MODIFIED="1705483614393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-1" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht3.coverage" NAME="teht3 Coverage Results" MODIFIED="1705577319857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-3" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht3.coverage" NAME="teht3 Coverage Results" MODIFIED="1705578171451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-3" />
     <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht6.coverage" NAME="teht6 Coverage Results" MODIFIED="1705563224115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-2" />
     <SUITE FILE_PATH="coverage/Ohjelmisto_1$hello.coverage" NAME="hello Coverage Results" MODIFIED="1705480972644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-1" />
     <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht2.coverage" NAME="teht2 Coverage Results" MODIFIED="1705565978108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-3" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht4.coverage" NAME="teht4 Coverage Results" MODIFIED="1705570784732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-2" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht4.coverage" NAME="teht4 Coverage Results" MODIFIED="1705579807198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-3" />
   </component>
 </project>
