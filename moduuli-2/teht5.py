@@ -1,10 +1,8 @@
-leiviskat = float(input("Anna leiviskät:"))
-naulat = float(input("Anna naulat:"))
-luodit = float(input("Anna luodit:"))
+#Ohjelma joka tulostaa kaksi erilaista numerolukon koodia
+import random
 
-luoditTotal = float(((leiviskat*20)+naulat)*32)
-print(luoditTotal)
+#Generoi satunnaisen kokonaisluvun annettujen parametrien välillä
+koodi_1 = random.randint(100, 999)
+koodi_2 = ''.join(str(random.randint(1, 6)) for _ in range(4))
 
-totalMass = float(luoditTotal * 13.3)
-
-print(totalMass, "kg")
+print(koodi_1, koodi_2)

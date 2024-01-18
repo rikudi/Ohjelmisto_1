@@ -1,11 +1,9 @@
-luku1 = int(input("Anna 1. kokonaisluku:"))
-luku2 = int(input("Anna 2. kokonaisluku:"))
-luku3 = int(input("Anna 3. kokonaisluku:"))
+leiviskat = float(input("Anna leiviskät:")) * 20
+naulat = (float(input("Anna naulat:")) + leiviskat) * 32
+luodit = float(input("Anna luodit:"))
 
-summa = luku1+luku2+luku3
-tulo = luku1*luku2*luku3
-keskiarvo = (luku1+luku2+luku3) / 3
-
-print ("Lukujen summa:", summa)
-print ("Lukujen tulo:", tulo)
-print ("Lukujen keskirvo:", keskiarvo)
+luoditTotal = luodit + naulat
+paino = luoditTotal * 13.3
+kg = int(paino / 1000)
+gramma = float("{:.2f}".format(paino % 1000))
+print("paino:", kg, "kg:", gramma, "grammaa")

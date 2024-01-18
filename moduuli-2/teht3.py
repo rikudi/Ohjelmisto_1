@@ -1,7 +1,11 @@
-#Ohjelma joka kysyy käyttäjän syötettä ja tallettaa ne float muuttujiin.
-#Sen jälkeen tulostaa piirin ja pinta-alan.
-kanta = float(input("Anna suorikulmion kannan pituus:"))
-korkeus = float(input("Anna suorakulmion korkeus:"))
+luku1 = int(input("Anna 1. kokonaisluku:"))
+luku2 = int(input("Anna 2. kokonaisluku:"))
+luku3 = int(input("Anna 3. kokonaisluku:"))
 
-print("Suorakulmion piiri: ", kanta*2+korkeus*2)
-print("Suorakulmion pinta-ala: ", kanta*korkeus)
+summa = luku1+luku2+luku3
+tulo = luku1*luku2*luku3
+keskiarvo = (luku1+luku2+luku3) / 3
+
+print ("Lukujen summa:", summa)
+print ("Lukujen tulo:", tulo)
+print ("Lukujen keskirvo:", keskiarvo)
