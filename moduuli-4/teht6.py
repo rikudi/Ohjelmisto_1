@@ -10,7 +10,6 @@ points = int(input("Syötä pistemäärä: "))
 while points_total < points:
     x = random.uniform(-1, 1)
     y = random.uniform(-1, 1)
-    print("x ", x, "y", y)
     # katsotaan onko pisteen sijainti pienempi kuin 1
     if x**2 + y**2 < 1:
         points_inside_circle += 1
