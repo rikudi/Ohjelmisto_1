@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b1b517-30fb-41bd-8240-3ff8a99ddac2" name="Changes" comment="module 4 | 5. - 6.">
-      <change afterPath="$PROJECT_DIR$/moduuli-5/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduuli-5/teht1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduuli-5/teht2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduuli-5/teht3.py" afterDir="false" />
+    <list default="true" id="67b1b517-30fb-41bd-8240-3ff8a99ddac2" name="Changes" comment="module 5 | 1.-2.">
+      <change afterPath="$PROJECT_DIR$/moduuli-5/teht4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moduuli-6/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moduuli-6/teht1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moduuli-6/teht2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moduuli-6/teht3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moduuli-6/teht4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moduuli-6/teht5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moduuli-6/teht6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduuli-4/teht6.py" beforeDir="false" afterPath="$PROJECT_DIR$/moduuli-4/teht6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduuli-5/teht3.py" beforeDir="false" afterPath="$PROJECT_DIR$/moduuli-5/teht3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +102,7 @@
       <workItem from="1705552683240" duration="919000" />
       <workItem from="1705562352629" duration="15750000" />
       <workItem from="1706081188922" duration="14717000" />
-      <workItem from="1706515367150" duration="3159000" />
+      <workItem from="1706515367150" duration="17071000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit, teht 1-4">
       <option name="closed" value="true" />
@@ -142,7 +146,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1706383472819</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="module 5 | 1.-2.">
+      <option name="closed" value="true" />
+      <created>1706544935512</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1706544935512</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,15 +177,16 @@
     <MESSAGE value="finished module 3" />
     <MESSAGE value="module 4 | 1.-4." />
     <MESSAGE value="module 4 | 5. - 6." />
-    <option name="LAST_COMMIT_MESSAGE" value="module 4 | 5. - 6." />
+    <MESSAGE value="module 5 | 1.-2." />
+    <option name="LAST_COMMIT_MESSAGE" value="module 5 | 1.-2." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht1.coverage" NAME="teht1 Coverage Results" MODIFIED="1706541293969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-5" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht5.coverage" NAME="teht5 Coverage Results" MODIFIED="1706374113469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-4" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht3.coverage" NAME="teht3 Coverage Results" MODIFIED="1706194176665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-4" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht6.coverage" NAME="teht6 Coverage Results" MODIFIED="1706515573332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-4" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht1.coverage" NAME="teht1 Coverage Results" MODIFIED="1706616648424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-6" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht5.coverage" NAME="teht5 Coverage Results" MODIFIED="1706633206460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-6" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht3.coverage" NAME="teht3 Coverage Results" MODIFIED="1706631972886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-6" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht6.coverage" NAME="teht6 Coverage Results" MODIFIED="1706635017009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-6" />
     <SUITE FILE_PATH="coverage/Ohjelmisto_1$hello.coverage" NAME="hello Coverage Results" MODIFIED="1705480972644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-1" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht2.coverage" NAME="teht2 Coverage Results" MODIFIED="1706542263017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-5" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht4.coverage" NAME="teht4 Coverage Results" MODIFIED="1706373748028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-4" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht2.coverage" NAME="teht2 Coverage Results" MODIFIED="1706630775538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-6" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht4.coverage" NAME="teht4 Coverage Results" MODIFIED="1706632247626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-6" />
   </component>
 </project>

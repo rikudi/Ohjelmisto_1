@@ -1,5 +1,11 @@
-"""
-Ohjelma joka kysyy käyttäjältä lukua ja ilmoittaa onko syötetty luku alkuluku vai ei
-alkuluku on jaollinen vain itsellään ja yhdellä niin että osamäärä on kokonaisluku. (Esim: 13/13 = 1 | 13/1 = 13)
-"""
+n = int(input("Syötä luku: "))
 
+if n > 1:
+    for i in range(2, int(n/2)):
+        if(n % i) == 0:
+            print("ei ole alkuluku")
+            break
+    else:
+        print("on alkuluku")
+else:
+    print("ei ole alkuluku")
