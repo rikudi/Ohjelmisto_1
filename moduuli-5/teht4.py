@@ -1,10 +1,9 @@
-nimet = []
+kaupungit = []
 # looppaa viisi kertaa
 for i in range(5):
-    nimet.append(input("Syötä kaupungin nimi: "))
-    print(nimet)
+    kaupungit.append(input("Syötä kaupungin nimi: "))
+    print(kaupungit)
 
-# tulostaa nimet indeksissä i
-for i in nimet:
-    print(i)
-
+# tulostaa alkiot listasta nimet indeksissä i
+for k in kaupungit:
+    print(k)
