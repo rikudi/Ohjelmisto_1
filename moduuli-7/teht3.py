@@ -1,27 +1,28 @@
-#kysyy haluaako syöttää uuden lentoaseman, hakea lentoaseman tiedot vai lopettaa.
-lentoasemat = {
+lentoasemat = {}  # Tässä tallennetaan lentoasematiedot
 
-}
+while True:
+    print("\n1 - Syötä uusi lentoasema")
+    print("2 - Hae lentoaseman tiedot")
+    print("3 - Lopeta")
 
-def hae_lentokentat(i):
-    if i == "":
-        print("Lopetetaan...")
-    elif i == "uusi" :
-        print("Uusi lentoasema...")
-        icao = input("Lentoaseman ICAO koodi: ")
-        nimi = input("Lentoaseman nimi:")
-    elif i == "hae":
-        print("Haetaan lentoaseman tiedot...")
+    valinta = input("Valitse toiminto (1, 2 tai 3): ")
 
-    return
+    if valinta == "1":
+        icao_koodi = input("Syötä lentoaseman ICAO-koodi: ").upper()
+        nimi = input("Syötä lentoaseman nimi: ")
+        lentoasemat[icao_koodi] = nimi
+        print(f"Lentoasema {nimi} ({icao_koodi}) tallennettu onnistuneesti.")
 
-def main():
+    elif valinta == "2":
+        icao_koodi = input("Syötä haettavan lentoaseman ICAO-koodi: ").upper()
+        if icao_koodi in lentoasemat:
+            print(f"Lentoaseman nimi: {lentoasemat[icao_koodi]}")
+        else:
+            print(f"Lentoasemaa {icao_koodi} ei löytynyt.")
 
-    i = input("Syötä 'uusi', jos haluat lisätä lentoaseman. "
-              "Syötä 'hae', jos haluat hakea lentoaseman tiedot. "
-              "Paina enter jos haluat lopettaa.")
-    hae_lentokentat(i)
+    elif valinta == "3":
+        print("Lopetetaan..")
+        break
 
-
-if __name__ == "__main__":
-    main()
+    else:
+        print("Virheellinen valinta. Valitse 1, 2 tai 3.")

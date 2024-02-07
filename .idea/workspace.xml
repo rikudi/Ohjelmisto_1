@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b1b517-30fb-41bd-8240-3ff8a99ddac2" name="Changes" comment="module 5 &amp; 6 OK">
-      <change afterPath="$PROJECT_DIR$/moduuli-7/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduuli-7/teht1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduuli-7/teht2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduuli-7/teht3.py" afterDir="false" />
+    <list default="true" id="67b1b517-30fb-41bd-8240-3ff8a99ddac2" name="Changes" comment="save commit -- module 7, 1 &amp; 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduuli-5/teht4.py" beforeDir="false" afterPath="$PROJECT_DIR$/moduuli-5/teht4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +97,9 @@
       <workItem from="1706784055450" duration="172000" />
       <workItem from="1706790028193" duration="1608000" />
       <workItem from="1706863864423" duration="1577000" />
-      <workItem from="1707289662603" duration="4615000" />
+      <workItem from="1707289662603" duration="4765000" />
+      <workItem from="1707294730073" duration="77000" />
+      <workItem from="1707296063353" duration="596000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit, teht 1-4">
       <option name="closed" value="true" />
@@ -160,7 +157,14 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1706635453393</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="save commit -- module 7, 1 &amp; 2">
+      <option name="closed" value="true" />
+      <created>1707294330188</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1707294330188</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +190,8 @@
     <MESSAGE value="module 4 | 5. - 6." />
     <MESSAGE value="module 5 | 1.-2." />
     <MESSAGE value="module 5 &amp; 6 OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="module 5 &amp; 6 OK" />
+    <MESSAGE value="save commit -- module 7, 1 &amp; 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="save commit -- module 7, 1 &amp; 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Ohjelmisto_1$teht1.coverage" NAME="teht1 Coverage Results" MODIFIED="1707289762047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moduuli-7" />
