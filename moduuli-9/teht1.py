@@ -19,24 +19,17 @@ class Auto:
         return
 
 def main():
+    game_over = False
     autot = []
-    a = 0
-    for i in range(10):
-        a += 1
-        autot.append(Auto(f"ABC-{a}", random.randint(100, 200)))
-
-    while True:
-        game_over = False
+    for i in range(1, 11):
+        autot.append(Auto(f"ABC-" + str(i), random.randint(100, 200)))
+    while not game_over:
         for auto in autot:
             auto.kiihdytä(random.randint(-15, 15))
             auto.kulje(1)
             if auto.matka >= 10000:
                 game_over = True
                 break
-        if game_over:
-            break
-        else:
-            continue
     for auto in autot:
         print("Rekkari: ", auto.rekisteritunnus, "Huippunopeus: ", auto.huippunopeus, "km/h", "Nopeus: ", auto.nopeus, "km/h", "Kuljettu matka: ", auto.matka, "km")
 
